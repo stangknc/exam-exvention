@@ -7,6 +7,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { PolicyComponent } from './policy/policy.component';
 import { PresidentComponent } from './president/president.component';
 import { CandidateComponent } from './candidate/candidate.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CandidateComponent } from './candidate/candidate.component';
     HomepageComponent,
     PolicyComponent,
     PresidentComponent,
-    CandidateComponent
+    CandidateComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

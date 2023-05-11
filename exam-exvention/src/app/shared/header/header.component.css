@@ -1,0 +1,36 @@
+nav {
+  background-color: #EC614E;
+  padding: 10px;
+}
+nav img {
+  width: 70px;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+li a {
+  color: #2F3575;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav label {
+  position: absolute;
+  width: 214px;
+  height: 34px;
+  left: 90px;
+  top: 35px;
+  color: #2F3575;
+}
+
+* {
+  font-family: "Roboto";
+}
