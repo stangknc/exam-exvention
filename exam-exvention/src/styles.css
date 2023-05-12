@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
 @font-face {
   font-family: "Roboto";
   src: local("Roboto"), url(./assets/font/Roboto-Medium.ttf) format("truetype");
@@ -6,10 +8,17 @@
 
 body {
   margin: 0px;
+  color: #2F3575;
+  background-color: #FFFFFF;
 }
 
 .header-font {
   font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.homepage-font {
+  font-size: 60px !important;
   font-weight: bold !important;
 }
 
