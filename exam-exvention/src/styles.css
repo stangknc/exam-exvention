@@ -2,8 +2,14 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(./assets/font/Roboto-Medium.ttf) format("truetype");
+  font-family: 'Kanit-Regular';
+  src:url('./assets/font/Roboto-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Kanit-Regular' !important;
 }
 
 body {
@@ -19,6 +25,11 @@ body {
 
 .homepage-font {
   font-size: 60px !important;
+  font-weight: bold !important;
+}
+
+.policy-font {
+  font-size: 40px !important;
   font-weight: bold !important;
 }
 
