@@ -8,24 +8,24 @@ import { PresidentComponent } from './president/president.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/homepage',
+    redirectTo: 'homepage',
     pathMatch: 'full'
   },
   {
     path: 'homepage',
-    component: HomepageComponent
+    loadChildren: () => import('./homepage/routing/homepage.module').then( m => m.HomepageModule)
   },
   {
     path: 'policy',
-    component: PolicyComponent
+    loadChildren: () => import('./policy/routing/policy.module').then( m => m.PolicyModule)
   },
   {
     path: 'president',
-    component: PresidentComponent
+    loadChildren: () => import('./president/routing/president.module').then( m => m.PresidentModule)
   },
   {
     path: 'candidate',
-    component: CandidateComponent
+    loadChildren: () => import('./candidate/routing/candidate.module').then( m => m.CandidateModule)
   }
 
 ];
