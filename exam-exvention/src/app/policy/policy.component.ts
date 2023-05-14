@@ -8,13 +8,13 @@ import { PolicyService } from '../policy/service/policy.service';
 })
 export class PolicyComponent {
   policys: any;
-  constructor(private PolicyService: PolicyService) { }
+  constructor(private policyService: PolicyService) { }
 
   ngOnInit(): void {
     this.getPolicy();
   }
   getPolicy() {
-    this.PolicyService.getPolicy().subscribe(data =>{
+    this.policyService.getPolicy().subscribe(data =>{
       this.policys = data;
     })
   }

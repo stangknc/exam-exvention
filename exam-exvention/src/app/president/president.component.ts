@@ -7,13 +7,13 @@ import { PresidentService } from '../president/service/president.service';
 })
 export class PresidentComponent {
   presidents: any;
-  constructor(private PresidentService: PresidentService) { }
+  constructor(private presidentService: PresidentService) { }
 
   ngOnInit(): void {
     this.getPresident();
   }
   getPresident() {
-    this.PresidentService.getPresident().subscribe(data =>{
+    this.presidentService.getPresident().subscribe(data =>{
       this.presidents = data;
       console.log(this.presidents);
     })

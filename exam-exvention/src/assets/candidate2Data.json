@@ -1,0 +1,26 @@
+[
+  {
+    "name": "นายเจริญ มุ่งมี",
+    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "position": "1",
+    "worked": ["test", "test"]
+  },
+  {
+    "name": "นางสาวยั่งยืน ทองคำดี",
+    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "position": "2",
+    "worked": ["test", "test"]
+  },
+  {
+    "name": "นางศรีเจริญ แสนล้าน",
+    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "position": "3",
+    "worked": ["test", "test"]
+  },
+  {
+    "name": "นายทำดี ศรีสุข",
+    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "position": "4",
+    "worked": ["test", "test"]
+  }
+]

@@ -11,6 +11,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { Candidate2Component } from './candidate/candidate2/candidate2.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     PolicyComponent,
     PresidentComponent,
     CandidateComponent,
-    HeaderComponent
+    HeaderComponent,
+    Candidate2Component,
   ],
   imports: [
     BrowserModule,

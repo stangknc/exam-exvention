@@ -43,3 +43,8 @@ body {
   }
 }
 
+.candidate-font {
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+

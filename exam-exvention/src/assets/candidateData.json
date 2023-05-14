@@ -1,0 +1,26 @@
+[
+  {
+    "name": "นายทองเหม็น ใจดี",
+    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "position": "1",
+    "worked": ["test", "test"]
+  },
+  {
+    "name": "นางสาวทรายทอง ยั่งยืน",
+    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "position": "2",
+    "worked": ["test", "test"]
+  },
+  {
+    "name": "นางดีใจ ศรีมั่งมี",
+    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "position": "3",
+    "worked": ["test", "test"]
+  },
+  {
+    "name": "นายดีมาก แสนวิเศษ",
+    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "position": "4",
+    "worked": ["test", "test"]
+  }
+]
