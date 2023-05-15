@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { Candidate2Component } from './candidate/candidate2/candidate2.component';
+import { PopupComponent } from './shared/popup/popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +24,15 @@ import { Candidate2Component } from './candidate/candidate2/candidate2.component
     CandidateComponent,
     HeaderComponent,
     Candidate2Component,
+    PopupComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

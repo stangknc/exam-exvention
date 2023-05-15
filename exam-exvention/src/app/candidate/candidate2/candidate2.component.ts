@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Candidate2Service } from '../candidate2/service/candidate2.service';
 import { Router } from '@angular/router';
+import { MatDialog } from '@angular/material/dialog';
+import { PopupComponent } from 'src/app/shared/popup/popup/popup.component';
 
 @Component({
   selector: 'app-candidate2',
@@ -10,7 +12,8 @@ import { Router } from '@angular/router';
 export class Candidate2Component {
 
   constructor(private candidate2Service: Candidate2Service,
-    private router: Router
+    private router: Router,
+    private dialogRef : MatDialog
   ) {}
 
   candidates: any;
@@ -45,6 +48,10 @@ export class Candidate2Component {
 
   goPageCandidate(){
     this.router.navigate(['candidate']);
+  }
+
+  openDialog(){
+    this.dialogRef.open(PopupComponent);
   }
 
 }

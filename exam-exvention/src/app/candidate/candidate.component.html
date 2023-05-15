@@ -27,7 +27,7 @@
       <div *ngFor="let candidate of srchCandidates" class="card candidate-font card-size" >
         <div style="margin: 25px 10px;">
           <div class="position-relative">
-            <button class="btn btn position-absolute top-0 end-0">ส่งแบบฟอร์มหาผู้สมัคร</button>
+            <button class="btn btn position-absolute top-0 end-0" (click)="openDialog()">ส่งแบบฟอร์มหาผู้สมัคร</button>
           </div>
           <div>
             <p>ชื่อ-นามสกุล: {{ candidate.name }}</p>

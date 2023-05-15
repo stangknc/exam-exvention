@@ -1,0 +1,31 @@
+.header {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+.sub-header {
+  font-size: 15px !important;
+  text-align: center;
+}
+
+.btn {
+  background-color: #EC614E;
+  font-size: 15px;
+  font-family: 'Kanit-Regular';
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+body {
+  padding: 10px 30px 30px 30px;
+}
+
+textarea {
+  resize: none;
+}
+
+label {
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
