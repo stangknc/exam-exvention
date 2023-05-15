@@ -1,26 +1,26 @@
 [
   {
-    "name": "นายทองเหม็น ใจดี",
-    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
-    "position": "1",
-    "worked": ["test", "test"]
-  },
-  {
     "name": "นางสาวทรายทอง ยั่งยืน",
-    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "education": ["ระดับปริญญาตรี มหาวิทยาลัยบูรพา นิติศาสตรบัณฑิต (น.บ.)"],
     "position": "2",
-    "worked": ["test", "test"]
-  },
-  {
-    "name": "นางดีใจ ศรีมั่งมี",
-    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
-    "position": "3",
-    "worked": ["test", "test"]
+    "worked": ["ปฏิบัติงานหน่วยงานรัฐวิสาหกิจ"]
   },
   {
     "name": "นายดีมาก แสนวิเศษ",
-    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
-    "position": "4",
-    "worked": ["test", "test"]
+    "education": ["ระดับปริญญาตรี มหาวิทยาลัยบูรพา คณะดนตรีและการแสดง"],
+    "position": "2",
+    "worked": ["นักแสดง"]
+  },
+  {
+    "name": "นายทองเหม็น ใจดี",
+    "education": ["ระดับปริญญาตรี มหาวิทยาลัยบูรพา นิติศาสตรบัณฑิต (น.บ.)"],
+    "position": "2",
+    "worked": ["ทนาย"]
+  },
+  {
+    "name": "นางดีใจ ศรีมั่งมี",
+    "education": ["ปริญญาตรี บริหารธุรกิจภาคภาษาอังกฤษ มหาวิทยาลัยรามคำแหง"],
+    "position": "3",
+    "worked": ["บริษัท อังกฤษ จำกัด"]
   }
 ]

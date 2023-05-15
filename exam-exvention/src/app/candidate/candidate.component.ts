@@ -10,8 +10,8 @@ import { Router } from '@angular/router';
 export class CandidateComponent {
   candidates: any;
   formModal: any;
-  searchText = '';
-  filteredData = [];
+  srchCandidates: any;
+  checkVal: any;
 
   constructor(private candidateService: CandidateService,
     private router: Router
@@ -24,15 +24,24 @@ export class CandidateComponent {
   getCandidate() {
     this.candidateService.getCandidate().subscribe(data =>{
       this.candidates = data;
+      this.srchCandidates = this.candidates;
       console.log(this.candidates);
 
     })
   }
 
-  search() {
-    console.log(this.searchText);
-    // this.candidates.filter(c => )
-
+  search(event: any) {
+    const val = event.target.value;
+    if (val && val.trim() !== '') {
+      this.checkVal = this.srchCandidates = this.candidates.filter((e: any) =>
+        e.name === val ||
+        e.education === val ||
+        e.position === val ||
+        e.worked === val );
+    }
+    else {
+      this.srchCandidates = this.candidates;
+    }
   }
 
   goPageCandidate2(){

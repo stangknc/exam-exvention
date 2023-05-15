@@ -14,6 +14,8 @@ export class Candidate2Component {
   ) {}
 
   candidates: any;
+  srchCandidates: any;
+  checkVal: any;
 
   ngOnInit(): void {
     this.getCandidate2();
@@ -23,9 +25,22 @@ export class Candidate2Component {
   getCandidate2() {
     this.candidate2Service.getCandidate2().subscribe(data =>{
       this.candidates = data;
-      console.log(this.candidates);
-
+      this.srchCandidates = this.candidates;
     })
+  }
+
+  search(event: any) {
+    const val = event.target.value;
+    if (val && val.trim() !== '') {
+      this.checkVal = this.srchCandidates = this.candidates.filter((e: any) =>
+        e.name === val ||
+        e.education === val ||
+        e.position === val ||
+        e.worked === val );
+    }
+    else {
+      this.srchCandidates = this.candidates;
+    }
   }
 
   goPageCandidate(){

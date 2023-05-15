@@ -3,24 +3,24 @@
     "name": "นายเจริญ มุ่งมี",
     "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
     "position": "1",
-    "worked": ["test", "test"]
+    "worked": ["CEO"]
   },
   {
     "name": "นางสาวยั่งยืน ทองคำดี",
-    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "education": ["ระดับปริญญาตรี มหาวิทยาลัยบูรพา นิติศาสตรบัณฑิต (น.บ.)"],
     "position": "2",
-    "worked": ["test", "test"]
+    "worked": ["ทนาย"]
   },
   {
     "name": "นางศรีเจริญ แสนล้าน",
-    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "education": ["ระดับปริญญาตรี มหาวิทยาลัยบูรพา นิติศาสตรบัณฑิต (น.บ.)"],
     "position": "3",
-    "worked": ["test", "test"]
+    "worked": ["ปฏิบัติงานหน่วยงานรัฐวิสาหกิจ"]
   },
   {
     "name": "นายทำดี ศรีสุข",
-    "education": ["ปริญญาตรี ธรรมศาสตร์ คณะ Design Business Techonology Management"],
+    "education": ["ปริญญาตรี บริหารธุรกิจภาคภาษาอังกฤษ มหาวิทยาลัยเกษตรศาสตร์ร"],
     "position": "4",
-    "worked": ["test", "test"]
+    "worked": ["CEO"]
   }
 ]
