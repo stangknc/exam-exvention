@@ -28,8 +28,6 @@ export class CandidateComponent {
     this.candidateService.getCandidate().subscribe(data =>{
       this.candidates = data;
       this.srchCandidates = this.candidates;
-      console.log(this.candidates);
-
     })
   }
 

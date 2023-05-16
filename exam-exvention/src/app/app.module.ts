@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatCardModule } from '@angular/material/card';
+import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -32,6 +34,8 @@ import { PopupComponent } from './shared/popup/popup/popup.component';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
+    MatCardModule,
+    MatInputModule,
     MatDialogModule
   ],
   providers: [],

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { PresidentRoutingModule } from './president-routing.module';
+import { PresidentService } from '../service/president.service';
 
 
 @NgModule({
@@ -9,6 +10,9 @@ import { PresidentRoutingModule } from './president-routing.module';
   imports: [
     CommonModule,
     PresidentRoutingModule
+  ],
+  providers: [
+    PresidentService
   ]
 })
 export class PresidentModule { }

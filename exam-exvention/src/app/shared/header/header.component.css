@@ -3,7 +3,8 @@ nav {
   padding: 10px;
 }
 nav img {
-  width: 70px;
+  max-width: 5%;
+  height: auto;
 }
 
 nav ul {

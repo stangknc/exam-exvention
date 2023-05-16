@@ -1,8 +1,8 @@
 <app-header></app-header>
 <div class="container">
-  <div class="mt-5 row mx-auto" style="width: 30%;">
-    <div class="col" >
-      <div class="input-group">
+  <div class="mt-5 row">
+    <div class="col">
+      <div class="input-group input-center">
         <span class="input-group-text" id="basic-addon1">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
@@ -10,15 +10,17 @@
         </span>
         <input type="text" class="form-control" placeholder="ค้นหานโยบาย" aria-label="Input group example" aria-describedby="basic-addon1" (change)="search($event)">
       </div>
-
     </div>
   </div>
   <div class="row mx-auto" style="width: 96%;">
     <div class="col">
-      <div *ngFor="let policy of srchPolicys" class="card policy-font card-size">
-        <p style="text-align: center; padding: 80px 0px;">{{ policy.name }}</p>
-      </div>
+      <mat-card *ngFor="let policy of srchPolicys" class="card-size">
+        <mat-card-content>
+          <div class="policy-font">
+            <p style="text-align: center; padding: 80px 0px;">{{ policy.name }}</p>
+          </div>
+        </mat-card-content>
+      </mat-card>
     </div>
   </div>
 </div>
-
