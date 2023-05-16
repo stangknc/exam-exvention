@@ -5,11 +5,11 @@
   </div>
   <div class="mt-3">
     <label for="" >ชื่อ</label>
-    <input type="text" class="form-control">
+    <input type="text" class="form-control" value="name" [(ngModel)]="name">
     <label for="" >ข้อความ</label>
-    <textarea class="form-control" rows="4" cols="40"></textarea>
+    <textarea class="form-control" rows="4" cols="40" value="text" [(ngModel)]="text"></textarea>
   </div>
   <div class="mt-3 text-center">
-    <button class="btn">ส่งแบบฟอร์ม</button>
+    <button class="btn" (click)="sendForm()">ส่งแบบฟอร์ม</button>
   </div>
 </body>
