@@ -47,3 +47,8 @@ body {
   font-size: 1vw !important;
   font-weight: bold !important;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}

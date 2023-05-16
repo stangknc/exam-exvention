@@ -5,6 +5,10 @@ nav {
 nav img {
   max-width: 5%;
   height: auto;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 1px;
+  background-color:#FFFFFF;
 }
 
 nav ul {
@@ -14,7 +18,7 @@ nav ul {
 
 ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 25px 10px;
 }
 
 li a {
@@ -24,11 +28,9 @@ li a {
 }
 
 nav label {
-  position: absolute;
-  width: 214px;
-  height: 34px;
-  left: 90px;
-  top: 30px;
+  position: flex;
+  align-items: center;
+  margin: 0px 5px;
 }
 
 
