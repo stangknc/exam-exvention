@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Candidate2Service } from '../candidate2/service/candidate2.service';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
-import { PopupComponent } from 'src/app/shared/popup/popup/popup.component';
+import { PopupComponent } from 'src/app/shared/popup/popup.component';
 
 @Component({
   selector: 'app-candidate2',

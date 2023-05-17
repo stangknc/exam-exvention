@@ -22,7 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { Candidate2Component } from './candidate/candidate2/candidate2.component';
-import { PopupComponent } from './shared/popup/popup/popup.component';
+import { PopupComponent } from './shared/popup/popup.component';
 import { SidenavListComponent } from './shared/header/sidenav-list/sidenav-list.component';
 
 @NgModule({

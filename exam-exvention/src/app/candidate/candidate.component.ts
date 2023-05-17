@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CandidateService } from './service/candidate.service';
 import { Router } from '@angular/router';
-import { PopupComponent } from '../shared/popup/popup/popup.component';
+import { PopupComponent } from '../shared/popup/popup.component';
 import { MatDialog } from '@angular/material/dialog';
 
 @Component({

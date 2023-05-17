@@ -1,35 +1,37 @@
 import { ComponentFixture, TestBed, async } from '@angular/core/testing';
-import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { PolicyComponent } from './policy.component';
-import { HttpClientModule } from '@angular/common/http';
-import { HeaderComponent } from '../shared/header/header.component';
-import { RouterTestingModule } from '@angular/router/testing';
 
-describe('PolicyComponent', () => {
-  let component: PolicyComponent;
-  let fixture: ComponentFixture<PolicyComponent>;
+import { PopupComponent } from './popup.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { RouterTestingModule } from '@angular/router/testing';
+import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from '../header/header.component';
+import { FormsModule } from '@angular/forms';
+
+describe('PopupComponent', () => {
+  let component: PopupComponent;
+  let fixture: ComponentFixture<PopupComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        PolicyComponent,
+        PopupComponent,
         HeaderComponent
       ],
       imports: [
         HttpClientModule,
         RouterTestingModule,
-        HttpClientTestingModule
+        HttpClientTestingModule,
+        FormsModule
       ]
     }).compileComponents();
   }));
-
   beforeEach(() => {
-    fixture = TestBed.createComponent(PolicyComponent);
+    fixture = TestBed.createComponent(PopupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should show data for search success', () => {
-    expect(component.search).toBeDefined();
+  it('should create', () => {
+    expect(component.sendForm()).toBe();
   });
 });

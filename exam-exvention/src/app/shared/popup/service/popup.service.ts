@@ -12,7 +12,7 @@ export class PopupService {
   ) { }
 
   postFormData(name:any, text:any): Observable<any> {
-    const URL = ` https://343df210-bdc8-4d01-9893-220e303a45ca.mock.pstmn.io/contact/member`;
+    const URL = `https://343df210-bdc8-4d01-9893-220e303a45ca.mock.pstmn.io/contact/member`;
     return this.http.post<any>(URL, name, text);
   }
 }
