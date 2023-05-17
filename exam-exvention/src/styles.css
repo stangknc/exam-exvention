@@ -10,12 +10,7 @@
 
 * {
   font-family: 'Kanit-Regular' !important;
-}
-
-body {
-  margin: 0px;
   color: #2F3575;
-  background-color: #FFFFFF;
 }
 
 .header-font {
@@ -49,6 +44,6 @@ body {
 }
 
 html, body {
-  height: 100%;
   margin: 0;
+  height: 100%;
 }

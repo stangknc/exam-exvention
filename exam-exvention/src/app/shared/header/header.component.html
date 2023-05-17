@@ -1,10 +1,26 @@
-<nav class="header-font">
-  <img src="./assets/icon/exvention-icon.png" alt="">
-  <label>พรรค Exvention</label>
-  <ul>
-    <li><a routerLink="/homepage">หน้าแรก</a></li>
-    <li><a routerLink="/policy">นโบาย</a></li>
-    <li><a routerLink="/president">แคนดิเดต</a></li>
-    <li><a routerLink="/candidate">ผู้สมัคร ส.ส.</a></li>
-  </ul>
-</nav>
+<mat-toolbar color="primary">
+  <div fxHide.gt-xs>
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon svgIcon="thumbs-up" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
+  </button>
+  </div>
+  <div class="center">
+    <label>พรรค Exvention</label>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+      <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+          <li>
+            <a routerLink="/homepage">หน้าแรก</a>
+          </li>
+          <li>
+            <a routerLink="/policy">นโบาย</a>
+          </li>
+          <li>
+            <a routerLink="/president">แคนดิเดต</a>
+          </li>
+          <li>
+            <a routerLink="/candidate">ผู้สมัคร ส.ส.</a>
+          </li>
+      </ul>
+  </div>
+</mat-toolbar>
