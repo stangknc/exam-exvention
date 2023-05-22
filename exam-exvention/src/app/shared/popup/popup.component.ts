@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { PopupService } from './service/popup.service';
+import { Popup } from './popup';
 
 @Component({
   selector: 'app-popup',
@@ -18,7 +19,13 @@ export class PopupComponent {
   }
 
   sendForm() {
-    this.popupService.postFormData(this.name, this.text).subscribe(res => {
+    let dataPost: Popup;
+    dataPost = {
+      'member': this.name,
+      'message': this.text
+    }
+
+    this.popupService.postFormData(dataPost).subscribe(res => {
 
     })
   }

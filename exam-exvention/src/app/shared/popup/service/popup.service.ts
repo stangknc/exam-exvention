@@ -11,8 +11,8 @@ export class PopupService {
     private http: HttpClient,
   ) { }
 
-  postFormData(name:any, text:any): Observable<any> {
+  postFormData(data:any): Observable<any> {
     const URL = `https://343df210-bdc8-4d01-9893-220e303a45ca.mock.pstmn.io/contact/member`;
-    return this.http.post<any>(URL, name, text);
+    return this.http.post<any>(URL, data);
   }
 }

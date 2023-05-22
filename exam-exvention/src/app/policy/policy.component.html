@@ -12,9 +12,9 @@
       </div>
     </div>
   </div>
-  <div class="row mx-auto" style="width: 96%;">
-    <div class="col">
-      <mat-card *ngFor="let policy of srchPolicys" class="card-size">
+  <div class="row">
+    <div class="col-sm-6 col-lg-4" *ngFor="let policy of srchPolicys">
+      <mat-card class="card-size">
         <mat-card-content>
           <div class="policy-font">
             <p style="text-align: center; padding: 80px 0px;">{{ policy.name }}</p>

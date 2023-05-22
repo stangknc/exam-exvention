@@ -29,7 +29,7 @@ export class PolicyComponent {
     const val = event.target.value;
     if (val && val.trim() !== '') {
       this.checkVal = this.srchPolicys = this.policys.filter((e: any) =>
-        e.name === val
+        e.name.includes(val)
       );
     }
     else {
